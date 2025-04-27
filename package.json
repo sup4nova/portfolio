@@ -1,12 +1,16 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Portfolio avec veille technologique",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-rss": "node generate-rss.js"
   },
-  "keywords": [],
+  "keywords": ["portfolio", "rss", "feed", "technology", "news"],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "rss": ""1.2.0"
+  }
 }
