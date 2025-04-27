@@ -1,0 +1,35 @@
+name: Deploy RSS to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  
+jobs:
+  deploy:
+    runs-on: windows-latest  
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2 
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Generate RSS Feed (optionnel si nécessaire)
+      run: |
+        # Commande pour générer ou mettre à jour le fichier RSS (par exemple, si tu utilises un script Node.js ou un générateur RSS)
+        node generate-rss.js  # Si tu as un script pour générer ton fichier RSS
+
+    - name: Secure Deployment of RSS Feed to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3 
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}  
+        publish_dir: ./rss  
+        user_name: 'GitHub Actions'  
+        user_email: 'actions@github.com'  
+        commit_message: 'Deploy updated RSS feed' 
