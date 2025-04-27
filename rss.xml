@@ -1,43 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
-  <channel>
-    <title>Veille Technologique de [Ton Nom]</title>
-    <link>https://tonsite.framer.website/veille</link>
-    <description>Suivi des dernières actualités en cybersécurité, géopolitique numérique, développement et nouvelles technologies.</description>
-    <language>fr-fr</language>
-    <lastBuildDate>Sun, 27 Apr 2025 12:00:00 +0000</lastBuildDate>
 
-    <!-- Cybersécurité -->
-    <item>
-      <title>Cybersecurity & Infrastructure Security Agency (CISA) - Latest Vulnerabilities</title>
-      <link>https://www.cisa.gov/news-events/cybersecurity-advisories/rss.xml</link>
-      <description>Les dernières alertes de vulnérabilités critiques mises en lumière par la CISA.</description>
-      <pubDate>Sun, 27 Apr 2025 10:00:00 +0000</pubDate>
-    </item>
-
-    <!-- Géopolitique -->
-    <item>
-      <title>GlobalSecurity.org - Defense and Geopolitical Analysis</title>
-      <link>https://www.globalsecurity.org/rss/all.xml</link>
-      <description>Analyses des enjeux géopolitiques et de défense dans un monde numérique.</description>
-      <pubDate>Sun, 27 Apr 2025 09:00:00 +0000</pubDate>
-    </item>
-
-    <!-- Développement -->
-    <item>
-      <title>Stack Overflow Blog - Developer Insights</title>
-      <link>https://stackoverflow.blog/feed/</link>
-      <description>Conseils pratiques et tendances pour les développeurs.</description>
-      <pubDate>Sun, 27 Apr 2025 08:00:00 +0000</pubDate>
-    </item>
-
-    <!-- Nouvelles technologies -->
-    <item>
-      <title>MIT Technology Review - Emerging Technologies</title>
-      <link>https://www.technologyreview.com/feed/</link>
-      <description>Découvertes et innovations dans le domaine des nouvelles technologies.</description>
-      <pubDate>Sun, 27 Apr 2025 07:00:00 +0000</pubDate>
-    </item>
-
-  </channel>
-</rss>
+<channel>
+  <title>W3Schools Home Page</title>
+  <link>https://www.w3schools.com</link>
+  <description>Free web building tutorials</description>
+  <item>
+    <title>MIT Technology Review - Emerging Technologies</title>
+    <link>https://www.technologyreview.com/feed/</link>
+    <description>Découvertes et innovations dans le domaine des nouvelles technologies.</description>
+  </item>
+  <item>
+    <title>Stack Overflow Blog - Developer Insights</title>
+    <link>https://stackoverflow.blog/feed/</link>
+    <description>Conseils pratiques et tendances pour les développeurs.</description>
+  </item>
+  <item>
+    <title>GlobalSecurity.org - Defense and Geopolitical Analysis</title>
+    <link>https://www.globalsecurity.org/rss/all.xml</link>
+    <description>Analyses des enjeux géopolitiques et de défense dans un monde numérique.</description>
+  </item>
+</channel>
+  
+</rss> 
